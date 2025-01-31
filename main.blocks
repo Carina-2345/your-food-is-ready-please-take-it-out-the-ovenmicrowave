@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="4)8:[0i0@)[*)fA4aErh">Minutes</variable><variable id="]nVi3:mqU=n/WyF,5VBo">Seconds</variable></variables><block type="pxt-on-start" id="6w(Nena7B@#nr^w;ed@/" x="53" y="56"><statement name="HANDLER"><block type="basic_show_icon" id="H,rva;[q6#0XTq-@n3xY"><field name="i">IconNames.Happy</field><next><block type="device_print_message" id="1g?;dYAj!SImd+]KW4uF"><value name="text"><shadow type="text" id="8XLY:CaAJ`CCZ++C)2)c"><field name="TEXT">HELLO </field></shadow></value><next><block type="device_show_leds" id="aCShQQ50rzf76Njgq}Q9"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        . # # # . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="basic_show_arrow" id="YX_(11xDDQemTXsn}/I,"><value name="i"><shadow type="device_arrow" id=",V/5D!x;=8?6Gwt(;3Lq"><field name="arrow">ArrowNames.West</field></shadow></value><next><block type="device_print_message" id="6yHZjf[.4w1XYY^NFrFK"><value name="text"><shadow type="text" id="g$~{}ITTQ8ScM;`=R|o2"><field name="TEXT">Press A to set minutes </field></shadow></value><next><block type="device_show_leds" id=")}W1rPqhuh6Mt%VRK(Zb"><field name="LEDS">`
+        . # # # . 
+        . # . . # 
+        . # # # . 
+        . # . . # 
+        . # # # .
+        `</field><next><block type="basic_show_arrow" id="N2cZPHix28eSf@hR`nCD"><value name="i"><shadow type="device_arrow" id="Q|8!^Np:eJBra9_Ef_Y]"><field name="arrow">ArrowNames.East</field></shadow></value><next><block type="device_print_message" id="Xo/_t[D`oEaFCMw:7Uob"><value name="text"><shadow type="text" id="_T6VNlJw8?XJMk)]/VW+"><field name="TEXT">Press B to set second </field></shadow></value><next><block type="device_show_leds" id="lwV%T:RNhM^WSv4C$;70"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        . # # # . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id=")jC1FnjD`c;?7PA+y5^R"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # # # # # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="!9ugn(Uo~Dx~`U,8|Zw="><field name="LEDS">`
+        . # # . . 
+        . # . # . 
+        . # # . . 
+        . # . # . 
+        . # # . .
+        `</field><next><block type="device_show_number" id="5z(pS_Kt!?=b9XoHBk$j"><value name="number"><shadow type="math_number" id="G_L%{qnUt)2CuM:EFzMM"><field name="NUM">0</field></shadow><block type="variables_get" id="5+;`@1Yzyd_tO+7#;:ih"><field name="VAR" id="4)8:[0i0@)[*)fA4aErh">Minutes</field></block></value><next><block type="device_show_number" id="`VorzD8*hID%,zW}-{TP"><value name="number"><shadow type="math_number" id="rjgjrq2ACt+IH+9A-aTl"><field name="NUM">0</field></shadow><block type="variables_get" id="_o}p8pY)7L}lUbaL)95E"><field name="VAR" id="]nVi3:mqU=n/WyF,5VBo">Seconds</field></block></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id=":az?~iK:iXeu!x|mvOrC" x="340" y="71"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="variables_change" id="ycc`a#}m+OARGI-$9f03"><field name="VAR" id="]nVi3:mqU=n/WyF,5VBo">Seconds</field><value name="VALUE"><shadow type="math_number" id="is+PgBe,WiG@Li349iec"><field name="NUM">1</field></shadow></value></block></statement></block><block type="device_button_event" id="]MS5MLYFTlLgqEh~HlSf" x="420" y="272"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_change" id="mDoDYm1MQGLgMs?Awo;."><field name="VAR" id="4)8:[0i0@)[*)fA4aErh">Minutes</field><value name="VALUE"><shadow type="math_number" id="E4_E?~3B=ANIIR6PXD8E"><field name="NUM">1</field></shadow></value></block></statement></block><block type="device_button_event" id="#?JXw?zK:UT(Hh:3q8f(" x="428" y="426"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_clear_display" id="WedT%Cx,rP_~C5SC3jUZ"></block></statement></block><block type="device_pin_event" id="3?8j^K8Moro|heFugDO9" x="498" y="659"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="variables_set" id="AB2+MfvO^f+-7,X(bV@("><field name="VAR" id="4)8:[0i0@)[*)fA4aErh">Minutes</field><value name="VALUE"><shadow type="math_number" id="M?^R7F9;C=hlgTd?kb`#"><field name="NUM">0</field></shadow></value><next><block type="variables_set" id="[r5-93n2Po*pIP~f3/]_"><field name="VAR" id="]nVi3:mqU=n/WyF,5VBo">Seconds</field><value name="VALUE"><shadow type="math_number" id="MZ^UI};*qPe2EGr~imwb"><field name="NUM">0</field></shadow></value></block></next></block></statement></block><block type="device_pin_event" id="4_wJr.d5;9]v!M+[0UoR" x="364" y="900"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="device_show_number" id="x,HAM7,}UB~?K1!]FZO`"><value name="number"><shadow type="math_number" id="6f.aoO_9t?qUBO5*{E3|"><field name="NUM">0</field></shadow><block type="variables_get" id="Axf.YdOqkd^xt/NY$Q?P"><field name="VAR" id="4)8:[0i0@)[*)fA4aErh">Minutes</field></block></value></block></statement></block><block type="device_pin_event" id="?GAAzOMT|Kyi*=V7)MHs" x="369" y="1098"><field name="name">TouchPin.P2</field><statement name="HANDLER"><block type="device_show_number" id="o!^z|f[Gj5uDD(_[]x5^"><value name="number"><shadow type="math_number" id="!C}]vcnM1n]o1xN-,fEU"><field name="NUM">0</field></shadow><block type="variables_get" id="//IQEVXdJotx]l4tC;WU"><field name="VAR" id="]nVi3:mqU=n/WyF,5VBo">Seconds</field></block></value></block></statement></block></xml>
